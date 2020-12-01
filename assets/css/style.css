@@ -1,1 +1,127 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Raleway:wght@100;200;300;400;500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight:400;
+    color:#4C1130;
+    background-color: #f5f5f5;
+}
+
+/*------------------------------Header*/
+
+header{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight:200;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin:0;
+    color:#333333;
+}
+
+/*------------------------------Logo name*/
+
+#name{
+    float:left;
+    font-size: 300%;
+    padding-left: 5px;
+}
+
+/*------------------------------Nav menu*/
+
+#menu{
+    margin:0;
+    font-size: 100%;
+    list-style-type: none;
+    letter-spacing: 1px;
+}
+
+#name, #menu{
+    line-height: 60px;
+}
+
+#menu li{
+    display: inline;
+    margin: 15px;
+}
+
+#menu a{
+    text-decoration:none;
+    color: inherit;
+}
+
+#menu a:hover{
+    color:#f5f5f5;
+    background-color: #4C1130;
+}
+
+.active{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/*------------------------------Footer*/
+
+
+footer{
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid red;
+}
+
+/*------------------------------Social Media Icons*/
+
+#social-icons{
+    list-style-type:none;
+    margin: 0;
+}
+
+#social-icons li{
+    display: inline;
+    margin-right: 30px;
+}
+
+#social-icons i{
+    font-size: 140%;
+    color: #4C1130;
+}
+
+#social-icons a i:hover{
+    transform: scale(1.5);
+}
+
+/*------------------------------Copyright Statement*/
+
+#copyright i{
+    float: left;
+    font-size: 90%;
+    color: #4C1130;
+    text-align:center;
+}
+
+#copyright-text{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*------------------------------Responsive*/
+
+@media screen and (max-width: 1200px){
+    #menu{
+        width:50%;
+        height: 120px;
+        margin: 0 auto;
+    }
