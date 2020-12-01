@@ -37,7 +37,7 @@ The customer goals are:
 
 #### Ideal client
 - English speaking
-- Is a student, musician or institution looking to collaborate
+- Is a student, musician or institution looking to collaborate with the musician.
 - Are a brass group looking to purchase repertoire.
 - Has a keen interest/knowledge in classical and contemporary music
 
@@ -63,7 +63,7 @@ This website aims to break down the different areas Tom works with in to clear, 
 ### DESIGN
 
 #### Colour Scheme
-The three main colours I am proposing to use are XXX (background), YYY (hearings and icons) and ZZZ (main text).  These reason for these colors are .
+The three main colours I am proposing to use are XXX (background), YYY (headings and icons) and ZZZ (main text).  These reason for these colors are .
 
 #### Typography
 - Fonts TBC
@@ -87,13 +87,13 @@ The three main colours I am proposing to use are XXX (background), YYY (hearings
 
 ### FEATURES
 
-The **header** for each page will be conventional with the logo in the top left hand corner and navigation bar to the right.  Both the desktop and mobile displays will feature the musicians name in the header - the tablet will not.  The header will be static at the top of every page.
+The **header** for each page will be conventional with the logo in the top left hand corner and navigation bar to the right.  Both the desktop and mobile displays will feature the musicians name in the header - the tablet will not.  The navigation menu will feature a dropdown menu to link to different elements of the website.
 
-The **footer** for each page will include copyright information on the left and links the the musicians social media centered (desktop) and to the right shown by icons.
+The **footer** for each page will include links to the the musicians social media using icons on the right and to the left copyright information will be displayed. 
 
-When you **hover** over a clickable link in the navbar or on the webpage the text will change color and increase in size.
+When you **hover** over a clickable link in the navbar or on the webpage the text and background color will invert to be clear on where your cursor is placed.
 
-The Home, Teacher and Contact pages will feature a different **Hero images** aimed to showcase the area of that pages focus - these pictures will be action photos with the hope of giving energy to the webpage and giving a positive emotional response toward the site and the musician.
+The Home, Teacher and Contact pages will feature different **Hero images** aimed to showcase the area of that pages focus - these pictures will be action photos with the hope of giving energy to the webpage and giving a positive emotional response toward the site and the musician.
 
 
 #### Home
@@ -191,3 +191,6 @@ Html colorcodes
 FontAwesome
 *Photo for Made in Scotland photos?*
 *Who made logo?*
+
+### VALIDATION
+01/12 Header and footer HTML and CSS validated via W3C validators - no errors logged. Lighthouse running at 93%, 89%, 86%, 88%

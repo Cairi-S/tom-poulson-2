@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Raleway:wght@100;200;300;400;500&display=swap');
 
-*{
-    margin:0;
-    padding:0;
-    border:0;
-}
 
 body{
     font-family: 'Raleway', sans-serif;
@@ -22,34 +17,33 @@ header{
     align-items: center;
 }
 
-h2{
+/*------------------------------Logo name*/
+
+#name{
     font-family: 'Poppins', sans-serif;
     font-weight:200;
+    font-size: 300%;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin:0;
     color:#333333;
 }
 
-/*------------------------------Logo name*/
-
-#name{
-    float:left;
-    font-size: 300%;
-    padding-left: 5px;
-}
-
 /*------------------------------Nav menu*/
 
+.navbar{
+    padding:0;
+}
+
+.navbar-brand{
+    padding:0;
+}
+
 #menu{
-    margin:0;
+    margin: 0px 0px 0px 120px;
     font-size: 100%;
     list-style-type: none;
     letter-spacing: 1px;
-}
-
-#name, #menu{
-    line-height: 60px;
 }
 
 #menu li{
@@ -72,12 +66,21 @@ h2{
     font-weight: 600;
 }
 
-/*------------------------------Footer*/
+.dropdown-menu{
+    background-color:#f5f5f5;
+    color:#4C1130;
+}
+
+button:focus {
+    outline: 5px auto #4C1130;
+}
+
 
 
 footer{
     height: 60px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     border: 1px solid red;
@@ -88,10 +91,11 @@ footer{
 #social-icons{
     list-style-type:none;
     margin: 0;
+    padding: 0;
 }
 
 #social-icons li{
-    display: inline;
+    display: inline-block;
     margin-right: 30px;
 }
 
@@ -110,18 +114,9 @@ footer{
     float: left;
     font-size: 90%;
     color: #4C1130;
-    text-align:center;
+    padding-left: 5px;
 }
 
-#copyright-text{
+.copyright-text{
     font-family: 'Poppins', sans-serif;
 }
-
-/*------------------------------Responsive*/
-
-@media screen and (max-width: 1200px){
-    #menu{
-        width:50%;
-        height: 120px;
-        margin: 0 auto;
-    }
