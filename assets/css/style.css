@@ -2,6 +2,7 @@
 
 
 body{
+    margin:0;
     font-family: 'Raleway', sans-serif;
     font-weight:400;
     color:#4C1130;
@@ -10,8 +11,7 @@ body{
 
 /*------------------------------Header*/
 
-header{
-    border: 1px solid red;
+header{    
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -71,11 +71,15 @@ header{
     color:#4C1130;
 }
 
+.burger-menu{
+    margin-bottom: 6px;
+}
+
 button:focus {
     outline: 5px auto #4C1130;
 }
 
-
+/*------------------------------Footer*/
 
 footer{
     height: 60px;
@@ -83,7 +87,6 @@ footer{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    border: 1px solid red;
 }
 
 /*------------------------------Social Media Icons*/
@@ -118,5 +121,78 @@ footer{
 }
 
 .copyright-text{
+    font-family: 'Raleway', sans-serif;
+}
+
+/*------------------------------Hero Image Home*/
+
+.hero-home{
+    background: url("../images/homehero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100vw;
+    height: 120vh;
+    text-align:center;
+}
+
+/*------------------------------Home Page Style*/
+
+.home-style{
+    margin-top: 30px;
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+.home-style p{
+    margin:0;
+}
+
+/*.hero-inside h4, p{
+    margin-bottom:30px;
+}*/
+
+#about-text, 
+#reviews, 
+.download-biog{
     font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color:#f5f5f5;
+}
+
+/*------------------------------Contact an Download Buttons*/
+
+#contact-btn,
+#download-btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    background-color: rgba(51, 51, 51, 0.5);
+    color:#f5f5f5;
+}
+
+#contact-btn:hover{
+    text-decoration: underline;
+}
+
+.download-biog:hover{
+    color:#f5f5f5;
+}
+
+/*------------------------------Home Page Reviews*/
+
+.desktop-review {
+    display: block;
+    }
+
+.mobile-review{
+    display:none;
+    }
+
+@media screen and (max-width: 768px) {
+.desktop-review {
+    display: none;
+    }
+.mobile-review{
+    display:inline-block;
+    }
 }

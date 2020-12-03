@@ -37,7 +37,7 @@ The customer goals are:
 
 #### Ideal client
 - English speaking
-- Is a student, musician or institution looking to collaborate with the musician.
+- Is a student, musician or institution looking to collaborate
 - Are a brass group looking to purchase repertoire.
 - Has a keen interest/knowledge in classical and contemporary music
 
@@ -63,10 +63,15 @@ This website aims to break down the different areas Tom works with in to clear, 
 ### DESIGN
 
 #### Colour Scheme
-The three main colours I am proposing to use are XXX (background), YYY (headings and icons) and ZZZ (main text).  These reason for these colors are .
+The three main colours I am proposing to use are an off-white (HEX #f5f5f5), a deep maroon (HEX #4C1130) and a dark gray (HEX #333).  
+These colors are refined and muted allowing reflecting the style of music that the performer specialises in.  
+The gray and off white alternate as background color and text color to provide easily readable text while not being harsh on the users eye.
+The maroon is only used in the header and footer to inject a splash of color.  It links to the color of the braces the musicians wears in the Home pages hero image.
 
 #### Typography
-- Fonts TBC
+- Fonts:
+* Poppins:
+* Raleway:  
 - Imagery/Videos:
    1. All Hero images used will mainly be action shots of the musician performing/teaching.  
    2. The Home page will feature an image of Tom performing a solo project with letters falling from the ceiling.  
@@ -87,21 +92,25 @@ The three main colours I am proposing to use are XXX (background), YYY (headings
 
 ### FEATURES
 
-The **header** for each page will be conventional with the logo in the top left hand corner and navigation bar to the right.  Both the desktop and mobile displays will feature the musicians name in the header - the tablet will not.  The navigation menu will feature a dropdown menu to link to different elements of the website.
+The **header** for each page will be conventional with the logo in the top left hand corner and navigation bar to the right.  Both the desktop and mobile displays will feature the musicians name in the header - the tablet will not.  The header will be static at the top of every page.
 
-The **footer** for each page will include links to the the musicians social media using icons on the right and to the left copyright information will be displayed. 
+The **footer** for each page will include copyright information on the left and links the the musicians social media centered (desktop) and to the right shown by icons.
 
-When you **hover** over a clickable link in the navbar or on the webpage the text and background color will invert to be clear on where your cursor is placed.
+When you **hover** over a clickable link in the navbar or on the webpage the text will change color and increase in size.
 
-The Home, Teacher and Contact pages will feature different **Hero images** aimed to showcase the area of that pages focus - these pictures will be action photos with the hope of giving energy to the webpage and giving a positive emotional response toward the site and the musician.
+The Home, Teacher and Contact pages will feature a different **Hero images** aimed to showcase the area of that pages focus - these pictures will be action photos with the hope of giving energy to the webpage and giving a positive emotional response toward the site and the musician.
 
 
 #### Home
-The Hero image will be static with a mini biog, link to full biog and reviews of past performances featured on this page.  
+The Hero image will be static with a mini biography, link to allow users to downloadfull biog and reviews of past performances featured on this page.  
 
-The link to a full biography will feature a download icon and open to a pdf in a new Tab.
+The link to a full biography will feature a download icon and open to a pdf in a new tab.
 
-There will also be a Call to Action button directing users to the Contact page should the user have already decided that they want to make contact with the musician .
+There will also be a Call to Action button directing users to the Contact page should the user have already decided that they want to make contact with the musician.
+
+Each item of text will be displayed in a transparent box to make reading clear.
+
+On mobile devices the reviews section will collapse to only one review so as to minimise scroll time.
 
 
 #### Ensembles and Projects
@@ -166,8 +175,8 @@ Next to the image there will be a contact form.  Everyone wanting to make an enq
 
 ### EXISTING FEATURES
 - Header Logo - Appears on every page making the brand easily identifiable. The logo will react as users have come to expect - clicking on it will return them to the Home screen.
-- Header Navigation Bar - Appears on every page and creates Quick and easy navigation to all areas of the website.
-- Footer Copyright Info - Appears on every page to protect the business copyright.
+- Header Navigation Bar - Appears on every page and creates quick and easy navigation to all areas of the website.
+- Footer Copyright Info - Appears on every page to protect the business' copyright.
 - Footer Social Icons - Appears on every page to guide the user toward the musicians social media profiles.
 - Call to Action Buttons - Appear on every page to encourage users to reach out to the musician, hopefully improving business opportunities. 
 - Images - All images chosen is an action image with the aim of providing an emotional response.
@@ -182,6 +191,7 @@ CAPTCHA
 LANGUAGE CHOICE (English/Swedish)
 HOST ARRANGEMENTS ON SITE/TAKE PAYMENTS ON SITE
 TEACHING CALENDAR ON SITE AND TAKE BOOKINGS/PAYMENT
+Hero image one - edited with photographer's permission to remove additional person (Fiona Hislop MSP)
 
 ### CREDIT
 CI code
@@ -194,3 +204,4 @@ FontAwesome
 
 ### VALIDATION
 01/12 Header and footer HTML and CSS validated via W3C validators - no errors logged. Lighthouse running at 93%, 89%, 86%, 88%
+03/12 Header, footer and body on index.html validated via W3C validators - no errors logged. Lighthouse running at 83%, 96%, 93%, 89%
