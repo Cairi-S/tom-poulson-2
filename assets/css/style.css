@@ -22,10 +22,10 @@ header{
 #name{
     font-family: 'Poppins', sans-serif;
     font-weight:200;
-    font-size: 300%;
+    font-size: 250%;
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin:0;
+    margin: 0px 0px 6px 6px;
     color:#333333;
 }
 
@@ -72,7 +72,7 @@ header{
 }
 
 .burger-menu{
-    margin-bottom: 6px;
+    margin: 0px 0px 6px 6px;
 }
 
 button:focus {
@@ -127,7 +127,7 @@ footer{
 /*------------------------------Hero Image Home*/
 
 .hero-home{
-    background: url("../images/homehero.jpg");
+    background: url("../images/herohomemis.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -195,4 +195,4 @@ footer{
 .mobile-review{
     display:inline-block;
     }
-}
+}x
