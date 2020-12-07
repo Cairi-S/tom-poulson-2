@@ -191,7 +191,6 @@ CAPTCHA
 LANGUAGE CHOICE (English/Swedish)
 HOST ARRANGEMENTS ON SITE/TAKE PAYMENTS ON SITE
 TEACHING CALENDAR ON SITE AND TAKE BOOKINGS/PAYMENT
-Hero image one - edited with photographer's permission to remove additional person (Fiona Hislop MSP)
 
 ### CREDIT
 CI code
@@ -199,9 +198,9 @@ Bootstrap v
 Google Fonts
 Html colorcodes
 FontAwesome
+Ed Poulson - photo editing
 *Photo for Made in Scotland photos?*
-*Who made logo?*
+CI Tutor support
 
-### VALIDATION
-01/12 Header and footer HTML and CSS validated via W3C validators - no errors logged. Lighthouse running at 93%, 89%, 86%, 88%
-03/12 Header, footer and body on index.html validated via W3C validators - no errors logged. Lighthouse running at 83%, 96%, 93%, 89%
+### BUG REPORT
+- Issue with header and burger icon floating left off screen on iPhone 5/se.  Fixed by reducing text size of Name only and adding small margin to both the name and burger icon.
